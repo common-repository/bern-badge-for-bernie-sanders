@@ -1,0 +1,100 @@
+.bern-badge {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    position: fixed;
+    top: 0;
+    z-index: 10000;
+}
+
+.bern-badge-click {
+    cursor: pointer;
+}
+
+.bern-badge-position-right {
+    right: 0;
+}
+
+.bern-badge-info {
+    display: none;
+    top: 0;
+    position: fixed;
+    z-index: 10001;
+    background: #357cc0;
+    width: 100%;
+    max-width: 600px;
+    min-height: 200px;
+    border-right: 5px solid #000;
+    border-bottom: 5px solid #000;
+    border-bottom-right-radius: 10px;
+    alignment: center;
+}
+
+.bern-badge-pop-down {
+    top: 32px;
+}
+
+.bernie-head {
+    width: 40%;
+    float: right;
+}
+
+.bernie {
+    width: 194px;
+    height: 150px;
+    background-image: url('images/bernie.png');
+    margin: 10px;
+}
+
+.bernie-says {
+    width: 60%;
+    float: right;
+    font-family: Merriweather,Georgia,serif;
+    font-size: 16px;
+    display: inline-block;
+    padding: 10px;
+    color: white;
+}
+
+.bernie-says a {
+    font-family: Merriweather,Georgia,serif !important;
+    font-size: 16px !important;
+    color: white !important;
+    text-decoration: none !important;
+}
+
+.bernie-says a:hover,
+.bernie-says a:active,
+.bernie-says a:visited {
+    font-family: Merriweather,Georgia,serif !important;
+    font-size: 16px !important;
+    color: white !important;
+    text-decoration: underline !important;
+}
+
+.bernie-says span {
+    display: block;
+    text-align: right;
+}
+
+@media screen and (max-width: 783px) {
+    .bern-badge-pop-down {
+        top: 46px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .bernie-head,
+    .bernie-says {
+        float: none;
+        display: block;
+        width: 100%;
+    }
+
+    .bern-badge-info {
+        border: 0;
+        border-bottom: 3px solid #000;
+        border-radius: 0;
+    }
+}

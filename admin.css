@@ -1,0 +1,40 @@
+.bern-badge-form label {
+    font-weight: bold;
+    display: block;
+    margin-top: 10px;
+    cursor: default;
+}
+
+.bern-badge-form select {
+    width: 100%;
+    max-width: 200px;
+}
+
+.bern-badge-container {
+    display: inline-block;
+    margin: 10px;
+    border: 5px;
+}
+
+.bern-badge-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.bern-badge {
+    width: 200px;
+    height: 200px;
+    background-repeat: no-repeat;
+    margin: 10px;
+    float: left;
+    cursor: pointer;
+}
+
+.bern-badge.selected {
+    background-color: #FFF;
+    border: 1px solid #000;
+    -moz-box-shadow: 0 0 2px 2px #999;
+    -webkit-box-shadow: 0 0 2px 2px #999;
+    box-shadow: 0 0 2px 2px #999;
+}
